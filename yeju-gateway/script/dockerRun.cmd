@@ -1,0 +1,1 @@
+docker run -p 81:81 --name yeju-gateway  --restart=always -d onedata-docker.pkg.coding.net/yeju/docker_repo/yeju-gateway:1.0.0

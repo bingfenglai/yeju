@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: yeju-job-provider
+
+
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20890
+    #host: 192.168.119.222
+  registry:
+    file: ../cachefile/dubbo.cache
+
+
+
+

@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: oos-server
+logging:
+  config: classpath:config/logback.xml
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20884
+  registry:
+    file: ../cachefile/dubbo.cache

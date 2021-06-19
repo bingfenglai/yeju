@@ -1,0 +1,1 @@
+docker run -p 20892:20892  --restart=always --name yeju-provider -d onedata-docker.pkg.coding.net/yeju/docker_repo/yeju-trade-provider:1.0.0
